@@ -1,0 +1,358 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 11 11:07:30 CST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>7 seconds (7856 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest()'><b>foodpostRewardTest</b><br>Test class: com.uxian.foodgroup.V2.FoodpostRewardTest<br>Parameters: 打赏金额大于粮票金额，且支付方式为支付宝, 9.9, 1, Failed, WaitThirdPay</td>
+<td><div><pre>java.lang.AssertionError: expected [Failed] but found [Success]
+	at com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest(FoodpostRewardTest.java:83)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1271484467", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1271484467'><pre>java.lang.AssertionError: expected [Failed] but found [Success]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest(FoodpostRewardTest.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest()'><b>foodpostRewardTest</b><br>Test class: com.uxian.foodgroup.V2.FoodpostRewardTest<br>Parameters: 打赏金额大于粮票金额，且支付方式为微信支付, 9.9, 4, Failed, WaitThirdPay</td>
+<td><div><pre>java.lang.AssertionError: expected [Failed] but found [Success]
+	at com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest(FoodpostRewardTest.java:83)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace693907036", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace693907036'><pre>java.lang.AssertionError: expected [Failed] but found [Success]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest(FoodpostRewardTest.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.UnAttentionFoodUsersTest.unAttentionFoodUsersTest()'><b>unAttentionFoodUsersTest</b><br>Test class: com.uxian.foodgroup.V2.UnAttentionFoodUsersTest<br>Parameters: 获取未关注好友列表, 1, 5, Success, 2</td>
+<td><div><pre>java.lang.AssertionError: expected [2] but found [5]
+	at com.uxian.foodgroup.V2.UnAttentionFoodUsersTest.unAttentionFoodUsersTest(UnAttentionFoodUsersTest.java:81)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1853381059", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1853381059'><pre>java.lang.AssertionError: expected [2] but found [5]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at org.testng.Assert.assertEquals(Assert.java:382)
+	at com.uxian.foodgroup.V2.UnAttentionFoodUsersTest.unAttentionFoodUsersTest(UnAttentionFoodUsersTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+</pre></div></td>
+<td>1</td>
+<td>com.uxian.foodgroup.V2.UnAttentionFoodUsersTest@6ec742a8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.ActivateCommentTest.activateCommentTest()'><b>activateCommentTest</b><br>Test class: com.uxian.foodgroup.V2.ActivateCommentTest<br>Parameters: 输入正确的激活码, 菠萝菠萝蜜, Success</td>
+<td></td>
+<td>1</td>
+<td>com.uxian.foodgroup.V2.ActivateCommentTest@6767ca0f</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.ActivateCommentTest.activateCommentTest()'><b>activateCommentTest</b><br>Test class: com.uxian.foodgroup.V2.ActivateCommentTest<br>Parameters: 输入错误的激活码, wrong, Failed</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.ActivateCommentTest@6767ca0f</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.ActivateCommentTest.activateCommentTest()'><b>activateCommentTest</b><br>Test class: com.uxian.foodgroup.V2.ActivateCommentTest<br>Parameters: 输入空的激活码, , Failed</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.ActivateCommentTest@6767ca0f</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.FoodStampSourceTest.foodStampSourceTest()'><b>foodStampSourceTest</b><br>Test class: com.uxian.foodgroup.V2.FoodStampSourceTest<br>Parameters: 查看粮票收入, Income, 1, 5, Success, 5</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.FoodStampSourceTest@35b220a3</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.FoodStampSourceTest.foodStampSourceTest()'><b>foodStampSourceTest</b><br>Test class: com.uxian.foodgroup.V2.FoodStampSourceTest<br>Parameters: 查看粮票支出, Pay, 1, 3, Success, 3</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.FoodStampSourceTest@35b220a3</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest()'><b>foodpostRewardTest</b><br>Test class: com.uxian.foodgroup.V2.FoodpostRewardTest<br>Parameters: 打赏金额小于粮票金额, 0.01, 1, Success, 0</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.FoodpostShareTest.foodpostShareTest()'><b>foodpostShareTest</b><br>Test class: com.uxian.foodgroup.V2.FoodpostShareTest<br>Parameters: 进行帖子分享, Success</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.FoodpostShareTest@66715d44</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.FoodpostRewardTest.getData_unnormalTest()'><b>getData_unnormalTest</b><br>Test class: com.uxian.foodgroup.V2.FoodpostRewardTest<br>Parameters: 打赏金额为0, 0, 1, 出现错误。</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.FoodpostRewardTest.getData_unnormalTest()'><b>getData_unnormalTest</b><br>Test class: com.uxian.foodgroup.V2.FoodpostRewardTest<br>Parameters: 打赏金额为0.009, 0.009, 1, 出现错误。</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.FoodpostRewardTest.getData_unnormalTest()'><b>getData_unnormalTest</b><br>Test class: com.uxian.foodgroup.V2.FoodpostRewardTest<br>Parameters: 打赏金额为9.9901, 9.9901, 1, 出现错误。</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.HotConstituteItemsTest.hotConstituteItems()'><b>hotConstituteItems</b><br>Test class: com.uxian.foodgroup.V2.HotConstituteItemsTest<br>Parameters: 查看存在的帖子的1个热度来源, 1, 1, Success, 1</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.HotConstituteItemsTest@42ed41a7</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.HotConstituteItemsTest.hotConstituteItems()'><b>hotConstituteItems</b><br>Test class: com.uxian.foodgroup.V2.HotConstituteItemsTest<br>Parameters: 查看存在的帖子的5个热度来源, 1, 5, Success, 5</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.HotConstituteItemsTest@42ed41a7</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.InviteFoodUsersTest.inviteFoodUsersTest()'><b>inviteFoodUsersTest</b><br>Test class: com.uxian.foodgroup.V2.InviteFoodUsersTest<br>Parameters: 获取待邀请列表, 1, 5, Success, 5</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.InviteFoodUsersTest@642bd560</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.InviteFoodUsersTest.inviteFoodUsersTest()'><b>inviteFoodUsersTest</b><br>Test class: com.uxian.foodgroup.V2.InviteFoodUsersTest<br>Parameters: 获取待邀请列表, 2, 10, Success, 10</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.InviteFoodUsersTest@642bd560</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.IsRepeatUserNameTest.isRepeatTest()'><b>isRepeatTest</b><br>Test class: com.uxian.foodgroup.V2.IsRepeatUserNameTest<br>Parameters: 未使用的昵称, notest, Success, false</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.IsRepeatUserNameTest@417cc8df</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.IsRepeatUserNameTest.isRepeatTest()'><b>isRepeatTest</b><br>Test class: com.uxian.foodgroup.V2.IsRepeatUserNameTest<br>Parameters: 已使用的昵称, 维尼宝宝, Success, true</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.IsRepeatUserNameTest@417cc8df</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.FoodpostRewardTest.noPayModeTest()'><b>noPayModeTest</b><br>Test class: com.uxian.foodgroup.V2.FoodpostRewardTest<br>Parameters: 打赏金额大于粮票金额，且没有选择第三方支付方式, 9.9, Failed, NoPayMode</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.IsRepeatUserNameTest.noRequired()'><b>noRequired</b><br>Test class: com.uxian.foodgroup.V2.IsRepeatUserNameTest<br>Parameters: 昵称为空, , 出现错误。</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.IsRepeatUserNameTest@417cc8df</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.ActivateCommentTest.noRequiredTest()'><b>noRequiredTest</b><br>Test class: com.uxian.foodgroup.V2.ActivateCommentTest<br>Parameters: DeviceNumber不输入, , 00267C69-29B6-4786-BCA4-31BE6EB82C03, Iphone, 菠萝菠萝蜜, 出现错误。</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.ActivateCommentTest@6767ca0f</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.ActivateCommentTest.noRequiredTest()'><b>noRequiredTest</b><br>Test class: com.uxian.foodgroup.V2.ActivateCommentTest<br>Parameters: FoodUserId不输入, 00add033-8a29-416e-8d4f-17fa9a088fa0, , Iphone, 菠萝菠萝蜜, 出现错误。</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.ActivateCommentTest@6767ca0f</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.ActivateCommentTest.noRequiredTest()'><b>noRequiredTest</b><br>Test class: com.uxian.foodgroup.V2.ActivateCommentTest<br>Parameters: DeviceType不输入, 00add033-8a29-416e-8d4f-17fa9a088fa0, 00267C69-29B6-4786-BCA4-31BE6EB82C03, , 菠萝菠萝蜜, 出现错误。</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.ActivateCommentTest@6767ca0f</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.PostSearChByTagTest.postSearChByTagTest()'><b>postSearChByTagTest</b><br>Test class: com.uxian.foodgroup.V2.PostSearChByTagTest<br>Parameters: 通过店铺tag进行搜索, 外婆家, 1, 5, Success, 5</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.PostSearChByTagTest@5be95c69</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.PostSearChByTagTest.postSearChByTagTest()'><b>postSearChByTagTest</b><br>Test class: com.uxian.foodgroup.V2.PostSearChByTagTest<br>Parameters: 通过菜名tag进行搜索, 茶香鸡, 1, 5, Success, 5</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.PostSearChByTagTest@5be95c69</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.PostSearChByTagTest.postSearChByTagTest()'><b>postSearChByTagTest</b><br>Test class: com.uxian.foodgroup.V2.PostSearChByTagTest<br>Parameters: 输入不存在的店铺或者菜名, 不存在, 1, 5, Success, 0</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.PostSearChByTagTest@5be95c69</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.PostSearChByTagTest.postSearChByTagTest()'><b>postSearChByTagTest</b><br>Test class: com.uxian.foodgroup.V2.PostSearChByTagTest<br>Parameters: tag为空, , 1, 5, Success, 0</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.PostSearChByTagTest@5be95c69</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.SearchTagsTest.searchTagsTest()'><b>searchTagsTest</b><br>Test class: com.uxian.foodgroup.V2.SearchTagsTest<br>Parameters: 查询存在的开放性tag, 酱牛肉, 4, Other, Success, 1</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.SearchTagsTest@49ef12fb</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.SearchTagsTest.searchTagsTest()'><b>searchTagsTest</b><br>Test class: com.uxian.foodgroup.V2.SearchTagsTest<br>Parameters: 查询不存在的开放性tag, ff, 1, Other, Success, 0</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.SearchTagsTest@49ef12fb</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.SearchTagsTest.searchTagsTest()'><b>searchTagsTest</b><br>Test class: com.uxian.foodgroup.V2.SearchTagsTest<br>Parameters: Finder为空, , 1, Other, Success, 1</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.SearchTagsTest@49ef12fb</td></tr>
+<tr>
+<td title='com.uxian.foodgroup.V2.SearchTagsTest.searchTagsnoFinerTest()'><b>searchTagsnoFinerTest</b><br>Test class: com.uxian.foodgroup.V2.SearchTagsTest<br>Parameters: SignType为空, 酱牛肉, 5, , 出现错误。</td>
+<td></td>
+<td>0</td>
+<td>com.uxian.foodgroup.V2.SearchTagsTest@49ef12fb</td></tr>
+</table><p>
+</body>
+</html>

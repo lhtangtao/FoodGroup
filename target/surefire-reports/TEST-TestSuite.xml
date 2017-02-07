@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="7.666" tests="32" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk1.7.0_79\jre\bin"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\SVNList\FoodGroupTest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\SVNList\FoodGroupTest"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\Java\jdk1.7.0_79\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Aloha\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="D:\Tools\eclipse\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf412781965863984357.tmp"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\Java\jdk1.7.0_79\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Lenovo\FusionEngine;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Lenovo\Lenovo Home\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Java\jdk1.7.0_79\bin;D:\Java\jdk1.7.0_79\jre\bin;D:\Tools\Maven\apache-maven-3.3.3\bin;D:\Tools\SVN\bin;D:\SDK\tools;D:\SDK\platform-tools;D:\Tools\appium\Appium\node_modules\.bin;D:\Tools\nodejs;C:\Users\Aloha\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Aloha"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="Aloha"/>
+    <property name="java.class.path" value="/D:/Tools/eclipse/eclipse-jee-mars-1-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\Java\jdk1.7.0_79\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="java.ext.dirs" value="D:\Java\jdk1.7.0_79\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Java\jdk1.7.0_79\jre\lib\resources.jar;D:\Java\jdk1.7.0_79\jre\lib\rt.jar;D:\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;D:\Java\jdk1.7.0_79\jre\lib\jsse.jar;D:\Java\jdk1.7.0_79\jre\lib\jce.jar;D:\Java\jdk1.7.0_79\jre\lib\charsets.jar;D:\Java\jdk1.7.0_79\jre\lib\jfr.jar;D:\Java\jdk1.7.0_79\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\SVNList\FoodGroupTest\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="activateCommentTest" classname="com.uxian.foodgroup.V2.ActivateCommentTest" time="1.673"/>
+  <testcase name="activateCommentTest" classname="com.uxian.foodgroup.V2.ActivateCommentTest" time="0.051"/>
+  <testcase name="activateCommentTest" classname="com.uxian.foodgroup.V2.ActivateCommentTest" time="0.048"/>
+  <testcase name="noRequiredTest" classname="com.uxian.foodgroup.V2.ActivateCommentTest" time="0.032"/>
+  <testcase name="noRequiredTest" classname="com.uxian.foodgroup.V2.ActivateCommentTest" time="0.078"/>
+  <testcase name="noRequiredTest" classname="com.uxian.foodgroup.V2.ActivateCommentTest" time="0.03"/>
+  <testcase name="hotConstituteItems" classname="com.uxian.foodgroup.V2.HotConstituteItemsTest" time="0.339"/>
+  <testcase name="hotConstituteItems" classname="com.uxian.foodgroup.V2.HotConstituteItemsTest" time="0.098"/>
+  <testcase name="inviteFoodUsersTest" classname="com.uxian.foodgroup.V2.InviteFoodUsersTest" time="0.451"/>
+  <testcase name="inviteFoodUsersTest" classname="com.uxian.foodgroup.V2.InviteFoodUsersTest" time="0.409"/>
+  <testcase name="isRepeatTest" classname="com.uxian.foodgroup.V2.IsRepeatUserNameTest" time="0.137"/>
+  <testcase name="isRepeatTest" classname="com.uxian.foodgroup.V2.IsRepeatUserNameTest" time="0.099"/>
+  <testcase name="noRequired" classname="com.uxian.foodgroup.V2.IsRepeatUserNameTest" time="0.02"/>
+  <testcase name="postSearChByTagTest" classname="com.uxian.foodgroup.V2.PostSearChByTagTest" time="0.522"/>
+  <testcase name="postSearChByTagTest" classname="com.uxian.foodgroup.V2.PostSearChByTagTest" time="0.216"/>
+  <testcase name="postSearChByTagTest" classname="com.uxian.foodgroup.V2.PostSearChByTagTest" time="0.096"/>
+  <testcase name="postSearChByTagTest" classname="com.uxian.foodgroup.V2.PostSearChByTagTest" time="0.031"/>
+  <testcase name="searchTagsTest" classname="com.uxian.foodgroup.V2.SearchTagsTest" time="0.283"/>
+  <testcase name="searchTagsTest" classname="com.uxian.foodgroup.V2.SearchTagsTest" time="0.068"/>
+  <testcase name="searchTagsTest" classname="com.uxian.foodgroup.V2.SearchTagsTest" time="0.093"/>
+  <testcase name="searchTagsnoFinerTest" classname="com.uxian.foodgroup.V2.SearchTagsTest" time="0.046"/>
+  <testcase name="unAttentionFoodUsersTest" classname="com.uxian.foodgroup.V2.UnAttentionFoodUsersTest" time="1.356">
+    <failure message="expected [2] but found [5]" type="java.lang.AssertionError">java.lang.AssertionError: expected [2] but found [5]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at org.testng.Assert.assertEquals(Assert.java:382)
+	at com.uxian.foodgroup.V2.UnAttentionFoodUsersTest.unAttentionFoodUsersTest(UnAttentionFoodUsersTest.java:81)
+</failure>
+    <system-out><![CDATA[[INFO ]11:07:35,827,main,[Class]SearchTagsTest, [Method]tearDown, 开放性TAG搜索接口测试结束！
+[INFO ]11:07:35,828,main,[Class]UnAttentionFoodUsersTest, [Method]setUp, 待关注的好友列表接口测试开始！
+[INFO ]11:07:35,830,main,[Class]UnAttentionFoodUsersTest, [Method]unAttentionFoodUsersTest, 测试名:获取未关注好友列表
+[INFO ]11:07:35,830,main,[Class]UnAttentionFoodUsersTest, [Method]unAttentionFoodUsersTest, url:http://121.40.149.243:81/api/FoodPostUserInfo/UnAttentionFoodUsers
+[INFO ]11:07:35,831,main,[Class]UnAttentionFoodUsersTest, [Method]unAttentionFoodUsersTest, {"DeviceNumber":"00add033-8a29-416e-8d4f-17fa9a088fa0","FoodUserId":"00267C69-29B6-4786-BCA4-31BE6EB82C03","DeviceType":"Iphone","PageNumber":1,"PageSize":5}
+[INFO ]11:07:37,129,main,[Class]UnAttentionFoodUsersTest, [Method]unAttentionFoodUsersTest, 响应数据:{"result":"Success","content":{"unAttentionFoodUsers":{"rowsCount":7,"list":[{"foodUserId":"00c3d387-40c3-4d37-a7d4-37478f297cce","userName":"657相遇是缘分咯1快乐","customerImage":"http://image220.u-xian.com/UploadFiles/Images/Customer/00c3d387-40c3-4d37-a7d4-37478f297cce_20151106112503758.jpg"},{"foodUserId":"006170a3-ece5-4f2a-9021-f3a014ab3107","userName":"乐牛","customerImage":"http://image220.u-xian.com/UploadFiles/Images/5afae0c787da4839b87e6bc6adb2cdeb.jpg"},{"foodUserId":"00b9a402-acc4-42c4-8f1c-b7456bdca1dc","userName":"博士兵","customerImage":""},{"foodUserId":"004c04b2-3525-4e9a-a57f-4ed5cbec6d6b","userName":"李18018395235","customerImage":""},{"foodUserId":"006a2d4c-3e9b-41ae-b24a-92b3eeaee42b","userName":"淡淡的15397191257","customerImage":""}]}}}
+]]></system-out>
+  </testcase>
+  <testcase name="foodpostShareTest" classname="com.uxian.foodgroup.V2.FoodpostShareTest" time="0.214"/>
+  <testcase name="foodStampSourceTest" classname="com.uxian.foodgroup.V2.FoodStampSourceTest" time="0.223"/>
+  <testcase name="foodStampSourceTest" classname="com.uxian.foodgroup.V2.FoodStampSourceTest" time="0.218"/>
+  <testcase name="foodpostRewardTest" classname="com.uxian.foodgroup.V2.FoodpostRewardTest" time="0.347"/>
+  <testcase name="foodpostRewardTest" classname="com.uxian.foodgroup.V2.FoodpostRewardTest" time="0.157">
+    <failure message="expected [Failed] but found [Success]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Failed] but found [Success]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest(FoodpostRewardTest.java:83)
+</failure>
+    <system-out><![CDATA[[INFO ]11:07:38,205,main,[Class]HotConstituteItemsTest, [Method]foodpostRewardTest, 测试名:打赏金额大于粮票金额，且支付方式为支付宝
+[INFO ]11:07:38,206,main,[Class]HotConstituteItemsTest, [Method]foodpostRewardTest, url:http://121.40.149.243:81/api/FoodPostOperator/FoodpostReward
+[INFO ]11:07:38,206,main,[Class]HotConstituteItemsTest, [Method]foodpostRewardTest, {"DeviceNumber":"00add033-8a29-416e-8d4f-17fa9a088fa0","FoodUserId":"00267C69-29B6-4786-BCA4-31BE6EB82C03","DeviceType":"Iphone","FoodPostID":"000191F8-D48A-4771-B250-FE303C0EEE57","Amount":9.9,"PayModeId":1}
+[INFO ]11:07:38,361,main,[Class]HotConstituteItemsTest, [Method]foodpostRewardTest, 响应数据:{"result":"Success","faildResult":0,"content":{"payModeList":[],"payMode":"NoPayMode"}}
+]]></system-out>
+  </testcase>
+  <testcase name="foodpostRewardTest" classname="com.uxian.foodgroup.V2.FoodpostRewardTest" time="0.151">
+    <failure message="expected [Failed] but found [Success]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Failed] but found [Success]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest(FoodpostRewardTest.java:83)
+</failure>
+    <system-out><![CDATA[[INFO ]11:07:38,363,main,[Class]HotConstituteItemsTest, [Method]foodpostRewardTest, 测试名:打赏金额大于粮票金额，且支付方式为微信支付
+[INFO ]11:07:38,363,main,[Class]HotConstituteItemsTest, [Method]foodpostRewardTest, url:http://121.40.149.243:81/api/FoodPostOperator/FoodpostReward
+[INFO ]11:07:38,363,main,[Class]HotConstituteItemsTest, [Method]foodpostRewardTest, {"DeviceNumber":"00add033-8a29-416e-8d4f-17fa9a088fa0","FoodUserId":"00267C69-29B6-4786-BCA4-31BE6EB82C03","DeviceType":"Iphone","FoodPostID":"000191F8-D48A-4771-B250-FE303C0EEE57","Amount":9.9,"PayModeId":4}
+[INFO ]11:07:38,511,main,[Class]HotConstituteItemsTest, [Method]foodpostRewardTest, 响应数据:{"result":"Success","faildResult":0,"content":{"payModeList":[],"payMode":"NoPayMode"}}
+]]></system-out>
+  </testcase>
+  <testcase name="getData_unnormalTest" classname="com.uxian.foodgroup.V2.FoodpostRewardTest" time="0.044"/>
+  <testcase name="getData_unnormalTest" classname="com.uxian.foodgroup.V2.FoodpostRewardTest" time="0.025"/>
+  <testcase name="getData_unnormalTest" classname="com.uxian.foodgroup.V2.FoodpostRewardTest" time="0.017"/>
+  <testcase name="noPayModeTest" classname="com.uxian.foodgroup.V2.FoodpostRewardTest" time="0.094"/>
+</testsuite>

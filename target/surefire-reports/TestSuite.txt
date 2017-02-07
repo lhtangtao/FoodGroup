@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 32, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 12.401 sec <<< FAILURE! - in TestSuite
+unAttentionFoodUsersTest(com.uxian.foodgroup.V2.UnAttentionFoodUsersTest)  Time elapsed: 1.356 sec  <<< FAILURE!
+java.lang.AssertionError: expected [2] but found [5]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at org.testng.Assert.assertEquals(Assert.java:382)
+	at com.uxian.foodgroup.V2.UnAttentionFoodUsersTest.unAttentionFoodUsersTest(UnAttentionFoodUsersTest.java:81)
+
+foodpostRewardTest(com.uxian.foodgroup.V2.FoodpostRewardTest)  Time elapsed: 0.157 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Failed] but found [Success]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest(FoodpostRewardTest.java:83)
+
+foodpostRewardTest(com.uxian.foodgroup.V2.FoodpostRewardTest)  Time elapsed: 0.151 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Failed] but found [Success]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest(FoodpostRewardTest.java:83)
+

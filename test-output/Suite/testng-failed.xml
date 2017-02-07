@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.uxian.foodgroup.City.CityListTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.City.CityListTest -->
+      <class name="com.uxian.foodgroup.FoodMessage.MessagesUpdateTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodMessage.MessagesUpdateTest -->
+      <class name="com.uxian.foodgroup.DataCount.CommentCountTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.DataCount.CommentCountTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.FoodpostShareTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.FoodpostShareTest -->
+      <class name="com.uxian.foodgroup.FoodPost.HotConstituteItemsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPost.HotConstituteItemsTest -->
+      <class name="com.uxian.foodgroup.FoodMessage.FoodPostMessagesTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodMessage.FoodPostMessagesTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.FoodPostPraiseTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.FoodPostPraiseTest -->
+      <class name="com.uxian.foodgroup.FoodMessage.PostMessagesDelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodMessage.PostMessagesDelTest -->
+      <class name="com.uxian.foodgroup.FoodPostUserInfo.CancelAttentionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostUserInfo.CancelAttentionTest -->
+      <class name="com.uxian.foodgroup.FoodPostUserInfo.FoodPostUserInfoTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostUserInfo.FoodPostUserInfoTest -->
+      <class name="com.uxian.foodgroup.FoodPost.CollectionDelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPost.CollectionDelTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.SearchTagsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.SearchTagsTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.FoodPostAddTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.FoodPostAddTest -->
+      <class name="com.uxian.foodgroup.FoodPostUserInfo.EditUserInfoTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostUserInfo.EditUserInfoTest -->
+      <class name="com.uxian.foodgroup.FoodPost.AttentionFoodPostsTest">
+        <methods>
+          <include name="attentionFoodPostsTest" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPost.AttentionFoodPostsTest -->
+      <class name="com.uxian.foodgroup.FoodPostUserInfo.AddAttentionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostUserInfo.AddAttentionTest -->
+      <class name="com.uxian.foodgroup.FoodPostUserInfo.InviteFoodUsersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostUserInfo.InviteFoodUsersTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.FoodPostCommentListTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.FoodPostCommentListTest -->
+      <class name="com.uxian.foodgroup.FoodPost.PostSearChByTagTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="postSearChByTagTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPost.PostSearChByTagTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.FoodPostDetailsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.FoodPostDetailsTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.FoodPostCommentTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.FoodPostCommentTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.FoodPostAccusationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.FoodPostAccusationTest -->
+      <class name="com.uxian.foodgroup.DataCount.CollectionCountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.DataCount.CollectionCountTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.FoodPostDelTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.FoodPostDelTest -->
+      <class name="com.uxian.foodgroup.FoodPostUserInfo.TaskFinishStatusTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostUserInfo.TaskFinishStatusTest -->
+      <class name="com.uxian.foodgroup.DataCount.PraisCountTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.DataCount.PraisCountTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.FoodPostDelCommentTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.FoodPostDelCommentTest -->
+      <class name="com.uxian.foodgroup.FoodPost.CollectionFoodPostsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPost.CollectionFoodPostsTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.ActivateCommentTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.ActivateCommentTest -->
+      <class name="com.uxian.foodgroup.FoodPost.SignFoodPostsTest">
+        <methods>
+          <include name="signFoodPostsTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPost.SignFoodPostsTest -->
+      <class name="com.uxian.foodgroup.FoodPostUserInfo.IsRepeatUserNameTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostUserInfo.IsRepeatUserNameTest -->
+      <class name="com.uxian.foodgroup.FoodPost.OthersFoodPostsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="othersFoodPostsTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPost.OthersFoodPostsTest -->
+      <class name="com.uxian.foodgroup.FoodPost.CollectionPostsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="collectionPostsTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPost.CollectionPostsTest -->
+      <class name="com.uxian.foodgroup.FoodPostUserInfo.AttentionUsersTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostUserInfo.AttentionUsersTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.FoodPostPraiseCancelTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.FoodPostPraiseCancelTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.FoodPraiseUsersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.FoodPraiseUsersTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.FoodpostRewardTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.FoodpostRewardTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.FoodPostCollectionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.FoodPostCollectionTest -->
+      <class name="com.uxian.foodgroup.FoodPostUserInfo.UnAttentionFoodUsersTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostUserInfo.UnAttentionFoodUsersTest -->
+      <class name="com.uxian.foodgroup.FoodPost.FindFoodPostsTest">
+        <methods>
+          <include name="findFoodPostsTest" invocation-numbers="1"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPost.FindFoodPostsTest -->
+      <class name="com.uxian.foodgroup.FoodPostOperator.FoodStampSourceTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostOperator.FoodStampSourceTest -->
+      <class name="com.uxian.foodgroup.FoodPostUserInfo.SendInvitionTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.FoodPostUserInfo.SendInvitionTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

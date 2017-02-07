@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.uxian.foodgroup.V2.FoodpostRewardTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="foodpostRewardTest" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.V2.FoodpostRewardTest -->
+      <class name="com.uxian.foodgroup.V2.SearchTagsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.V2.SearchTagsTest -->
+      <class name="com.uxian.foodgroup.V2.UnAttentionFoodUsersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="unAttentionFoodUsersTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.V2.UnAttentionFoodUsersTest -->
+      <class name="com.uxian.foodgroup.V2.PostSearChByTagTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.V2.PostSearChByTagTest -->
+      <class name="com.uxian.foodgroup.V2.FoodStampSourceTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.V2.FoodStampSourceTest -->
+      <class name="com.uxian.foodgroup.V2.IsRepeatUserNameTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.V2.IsRepeatUserNameTest -->
+      <class name="com.uxian.foodgroup.V2.ActivateCommentTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.V2.ActivateCommentTest -->
+      <class name="com.uxian.foodgroup.V2.HotConstituteItemsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.V2.HotConstituteItemsTest -->
+      <class name="com.uxian.foodgroup.V2.FoodpostShareTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.V2.FoodpostShareTest -->
+      <class name="com.uxian.foodgroup.V2.InviteFoodUsersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.uxian.foodgroup.V2.InviteFoodUsersTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

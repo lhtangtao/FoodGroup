@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>E:\SVNList\FoodGroupTest\runTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods, 3 failed,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.FoodpostRewardTest" hash-for-method="foodpostRewardTest(打赏金额大于粮票金额，且支付方式为支付宝, 9.9, 1, Failed, WaitThirdPay)">foodpostRewardTest(打赏金额大于粮票金额，且支付方式为支付宝, 9.9, 1, Failed, WaitThirdPay)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.FoodpostRewardTest" hash-for-method="foodpostRewardTest(打赏金额大于粮票金额，且支付方式为微信支付, 9.9, 4, Failed, WaitThirdPay)">foodpostRewardTest(打赏金额大于粮票金额，且支付方式为微信支付, 9.9, 4, Failed, WaitThirdPay)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.UnAttentionFoodUsersTest" hash-for-method="unAttentionFoodUsersTest(获取未关注好友列表, 1, 5, Success, 2)">unAttentionFoodUsersTest(获取未关注好友列表, 1, 5, Success, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.ActivateCommentTest" hash-for-method="activateCommentTest(输入错误的激活码, wrong, Failed)">activateCommentTest(输入错误的激活码, wrong, Failed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.ActivateCommentTest" hash-for-method="activateCommentTest(输入正确的激活码, 菠萝菠萝蜜, Success)">activateCommentTest(输入正确的激活码, 菠萝菠萝蜜, Success)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.ActivateCommentTest" hash-for-method="activateCommentTest(输入空的激活码, , Failed)">activateCommentTest(输入空的激活码, , Failed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.FoodStampSourceTest" hash-for-method="foodStampSourceTest(查看粮票支出, Pay, 1, 3, Success, 3)">foodStampSourceTest(查看粮票支出, Pay, 1, 3, Success, 3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.FoodStampSourceTest" hash-for-method="foodStampSourceTest(查看粮票收入, Income, 1, 5, Success, 5)">foodStampSourceTest(查看粮票收入, Income, 1, 5, Success, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.FoodpostRewardTest" hash-for-method="foodpostRewardTest(打赏金额小于粮票金额, 0.01, 1, Success, 0)">foodpostRewardTest(打赏金额小于粮票金额, 0.01, 1, Success, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.FoodpostShareTest" hash-for-method="foodpostShareTest(进行帖子分享, Success)">foodpostShareTest(进行帖子分享, Success)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.FoodpostRewardTest" hash-for-method="getData_unnormalTest(打赏金额为9.9901, 9.9901, 1, 出现错误。)">getData_unnormalTest(打赏金额为9.9901, 9.9901, 1, 出现错误。)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.FoodpostRewardTest" hash-for-method="getData_unnormalTest(打赏金额为0, 0, 1, 出现错误。)">getData_unnormalTest(打赏金额为0, 0, 1, 出现错误。)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.FoodpostRewardTest" hash-for-method="getData_unnormalTest(打赏金额为0.009, 0.009, 1, 出现错误。)">getData_unnormalTest(打赏金额为0.009, 0.009, 1, 出现错误。)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.HotConstituteItemsTest" hash-for-method="hotConstituteItems(查看存在的帖子的5个热度来源, 1, 5, Success, 5)">hotConstituteItems(查看存在的帖子的5个热度来源, 1, 5, Success, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.HotConstituteItemsTest" hash-for-method="hotConstituteItems(查看存在的帖子的1个热度来源, 1, 1, Success, 1)">hotConstituteItems(查看存在的帖子的1个热度来源, 1, 1, Success, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.InviteFoodUsersTest" hash-for-method="inviteFoodUsersTest(获取待邀请列表, 2, 10, Success, 10)">inviteFoodUsersTest(获取待邀请列表, 2, 10, Success, 10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.InviteFoodUsersTest" hash-for-method="inviteFoodUsersTest(获取待邀请列表, 1, 5, Success, 5)">inviteFoodUsersTest(获取待邀请列表, 1, 5, Success, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.IsRepeatUserNameTest" hash-for-method="isRepeatTest(未使用的昵称, notest, Success, false)">isRepeatTest(未使用的昵称, notest, Success, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.IsRepeatUserNameTest" hash-for-method="isRepeatTest(已使用的昵称, 维尼宝宝, Success, true)">isRepeatTest(已使用的昵称, 维尼宝宝, Success, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.FoodpostRewardTest" hash-for-method="noPayModeTest(打赏金额大于粮票金额，且没有选择第三方支付方式, 9.9, Failed, NoPayMode)">noPayModeTest(打赏金额大于粮票金额，且没有选择第三方支付方式, 9.9, Failed, NoPayMode)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.IsRepeatUserNameTest" hash-for-method="noRequired(昵称为空, , 出现错误。)">noRequired(昵称为空, , 出现错误。)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.ActivateCommentTest" hash-for-method="noRequiredTest(DeviceNumber不输入, , 00267C69-29B6-4786-BCA4-31BE6EB82C03, Iphone, 菠萝菠萝蜜, 出现错误。)">noRequiredTest(DeviceNumber不输入, , 00267C69-29B6-4786-BCA4-31BE6EB82C03, Iphone, 菠萝菠萝蜜, 出现错误。)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.ActivateCommentTest" hash-for-method="noRequiredTest(FoodUserId不输入, 00add033-8a29-416e-8d4f-17fa9a088fa0, , Iphone, 菠萝菠萝蜜, 出现错误。)">noRequiredTest(FoodUserId不输入, 00add033-8a29-416e-8d4f-17fa9a088fa0, , Iphone, 菠萝菠萝蜜, 出现错误。)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.ActivateCommentTest" hash-for-method="noRequiredTest(DeviceType不输入, 00add033-8a29-416e-8d4f-17fa9a088fa0, 00267C69-29B6-4786-BCA4-31BE6EB82C03, , 菠萝菠萝蜜, ...)">noRequiredTest(DeviceType不输入, 00add033-8a29-416e-8d4f-17fa9a088fa0, 00267C69-29B6-4786-BCA4-31BE6EB82C03, , 菠萝菠萝蜜, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.PostSearChByTagTest" hash-for-method="postSearChByTagTest(输入不存在的店铺或者菜名, 不存在, 1, 5, Success, 0)">postSearChByTagTest(输入不存在的店铺或者菜名, 不存在, 1, 5, Success, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.PostSearChByTagTest" hash-for-method="postSearChByTagTest(通过店铺tag进行搜索, 外婆家, 1, 5, Success, 5)">postSearChByTagTest(通过店铺tag进行搜索, 外婆家, 1, 5, Success, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.PostSearChByTagTest" hash-for-method="postSearChByTagTest(tag为空, , 1, 5, Success, 0)">postSearChByTagTest(tag为空, , 1, 5, Success, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.PostSearChByTagTest" hash-for-method="postSearChByTagTest(通过菜名tag进行搜索, 茶香鸡, 1, 5, Success, 5)">postSearChByTagTest(通过菜名tag进行搜索, 茶香鸡, 1, 5, Success, 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.SearchTagsTest" hash-for-method="searchTagsTest(查询存在的开放性tag, 酱牛肉, 4, Other, Success, 1)">searchTagsTest(查询存在的开放性tag, 酱牛肉, 4, Other, Success, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.SearchTagsTest" hash-for-method="searchTagsTest(Finder为空, , 1, Other, Success, 1)">searchTagsTest(Finder为空, , 1, Other, Success, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.SearchTagsTest" hash-for-method="searchTagsTest(查询不存在的开放性tag, ff, 1, Other, Success, 0)">searchTagsTest(查询不存在的开放性tag, ff, 1, Other, Success, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.uxian.foodgroup.V2.SearchTagsTest" hash-for-method="searchTagsnoFinerTest(SignType为空, 酱牛肉, 5, , 出现错误。)">searchTagsnoFinerTest(SignType为空, 酱牛肉, 5, , 出现错误。)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.uxian.foodgroup.V2.FoodpostRewardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="foodpostRewardTest(打赏金额大于粮票金额，且支付方式为支付宝, 9.9, 1, Failed, WaitThirdPay)">
+                  </a> <!-- foodpostRewardTest(打赏金额大于粮票金额，且支付方式为支付宝, 9.9, 1, Failed, WaitThirdPay) -->
+                  <span class="method-name">foodpostRewardTest</span>
+                  <span class="parameters">(打赏金额大于粮票金额，且支付方式为支付宝, 9.9, 1, Failed, WaitThirdPay)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Failed] but found [Success]
+	at com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest(FoodpostRewardTest.java:83)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="foodpostRewardTest(打赏金额大于粮票金额，且支付方式为微信支付, 9.9, 4, Failed, WaitThirdPay)">
+                  </a> <!-- foodpostRewardTest(打赏金额大于粮票金额，且支付方式为微信支付, 9.9, 4, Failed, WaitThirdPay) -->
+                  <span class="method-name">foodpostRewardTest</span>
+                  <span class="parameters">(打赏金额大于粮票金额，且支付方式为微信支付, 9.9, 4, Failed, WaitThirdPay)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Failed] but found [Success]
+	at com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest(FoodpostRewardTest.java:83)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.uxian.foodgroup.V2.UnAttentionFoodUsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="unAttentionFoodUsersTest(获取未关注好友列表, 1, 5, Success, 2)">
+                  </a> <!-- unAttentionFoodUsersTest(获取未关注好友列表, 1, 5, Success, 2) -->
+                  <span class="method-name">unAttentionFoodUsersTest</span>
+                  <span class="parameters">(获取未关注好友列表, 1, 5, Success, 2)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [2] but found [5]
+	at com.uxian.foodgroup.V2.UnAttentionFoodUsersTest.unAttentionFoodUsersTest(UnAttentionFoodUsersTest.java:81)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.uxian.foodgroup.V2.FoodpostRewardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="foodpostRewardTest(打赏金额小于粮票金额, 0.01, 1, Success, 0)">
+                  </a> <!-- foodpostRewardTest(打赏金额小于粮票金额, 0.01, 1, Success, 0) -->
+                  <span class="method-name">foodpostRewardTest</span>
+                  <span class="parameters">(打赏金额小于粮票金额, 0.01, 1, Success, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getData_unnormalTest(打赏金额为9.9901, 9.9901, 1, 出现错误。)">
+                  </a> <!-- getData_unnormalTest(打赏金额为9.9901, 9.9901, 1, 出现错误。) -->
+                  <span class="method-name">getData_unnormalTest</span>
+                  <span class="parameters">(打赏金额为9.9901, 9.9901, 1, 出现错误。)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getData_unnormalTest(打赏金额为0, 0, 1, 出现错误。)">
+                  </a> <!-- getData_unnormalTest(打赏金额为0, 0, 1, 出现错误。) -->
+                  <span class="method-name">getData_unnormalTest</span>
+                  <span class="parameters">(打赏金额为0, 0, 1, 出现错误。)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getData_unnormalTest(打赏金额为0.009, 0.009, 1, 出现错误。)">
+                  </a> <!-- getData_unnormalTest(打赏金额为0.009, 0.009, 1, 出现错误。) -->
+                  <span class="method-name">getData_unnormalTest</span>
+                  <span class="parameters">(打赏金额为0.009, 0.009, 1, 出现错误。)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noPayModeTest(打赏金额大于粮票金额，且没有选择第三方支付方式, 9.9, Failed, NoPayMode)">
+                  </a> <!-- noPayModeTest(打赏金额大于粮票金额，且没有选择第三方支付方式, 9.9, Failed, NoPayMode) -->
+                  <span class="method-name">noPayModeTest</span>
+                  <span class="parameters">(打赏金额大于粮票金额，且没有选择第三方支付方式, 9.9, Failed, NoPayMode)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.uxian.foodgroup.V2.SearchTagsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTagsTest(查询存在的开放性tag, 酱牛肉, 4, Other, Success, 1)">
+                  </a> <!-- searchTagsTest(查询存在的开放性tag, 酱牛肉, 4, Other, Success, 1) -->
+                  <span class="method-name">searchTagsTest</span>
+                  <span class="parameters">(查询存在的开放性tag, 酱牛肉, 4, Other, Success, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTagsTest(Finder为空, , 1, Other, Success, 1)">
+                  </a> <!-- searchTagsTest(Finder为空, , 1, Other, Success, 1) -->
+                  <span class="method-name">searchTagsTest</span>
+                  <span class="parameters">(Finder为空, , 1, Other, Success, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTagsTest(查询不存在的开放性tag, ff, 1, Other, Success, 0)">
+                  </a> <!-- searchTagsTest(查询不存在的开放性tag, ff, 1, Other, Success, 0) -->
+                  <span class="method-name">searchTagsTest</span>
+                  <span class="parameters">(查询不存在的开放性tag, ff, 1, Other, Success, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTagsnoFinerTest(SignType为空, 酱牛肉, 5, , 出现错误。)">
+                  </a> <!-- searchTagsnoFinerTest(SignType为空, 酱牛肉, 5, , 出现错误。) -->
+                  <span class="method-name">searchTagsnoFinerTest</span>
+                  <span class="parameters">(SignType为空, 酱牛肉, 5, , 出现错误。)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.uxian.foodgroup.V2.PostSearChByTagTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="postSearChByTagTest(输入不存在的店铺或者菜名, 不存在, 1, 5, Success, 0)">
+                  </a> <!-- postSearChByTagTest(输入不存在的店铺或者菜名, 不存在, 1, 5, Success, 0) -->
+                  <span class="method-name">postSearChByTagTest</span>
+                  <span class="parameters">(输入不存在的店铺或者菜名, 不存在, 1, 5, Success, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postSearChByTagTest(通过店铺tag进行搜索, 外婆家, 1, 5, Success, 5)">
+                  </a> <!-- postSearChByTagTest(通过店铺tag进行搜索, 外婆家, 1, 5, Success, 5) -->
+                  <span class="method-name">postSearChByTagTest</span>
+                  <span class="parameters">(通过店铺tag进行搜索, 外婆家, 1, 5, Success, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postSearChByTagTest(tag为空, , 1, 5, Success, 0)">
+                  </a> <!-- postSearChByTagTest(tag为空, , 1, 5, Success, 0) -->
+                  <span class="method-name">postSearChByTagTest</span>
+                  <span class="parameters">(tag为空, , 1, 5, Success, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postSearChByTagTest(通过菜名tag进行搜索, 茶香鸡, 1, 5, Success, 5)">
+                  </a> <!-- postSearChByTagTest(通过菜名tag进行搜索, 茶香鸡, 1, 5, Success, 5) -->
+                  <span class="method-name">postSearChByTagTest</span>
+                  <span class="parameters">(通过菜名tag进行搜索, 茶香鸡, 1, 5, Success, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.uxian.foodgroup.V2.FoodStampSourceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="foodStampSourceTest(查看粮票支出, Pay, 1, 3, Success, 3)">
+                  </a> <!-- foodStampSourceTest(查看粮票支出, Pay, 1, 3, Success, 3) -->
+                  <span class="method-name">foodStampSourceTest</span>
+                  <span class="parameters">(查看粮票支出, Pay, 1, 3, Success, 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="foodStampSourceTest(查看粮票收入, Income, 1, 5, Success, 5)">
+                  </a> <!-- foodStampSourceTest(查看粮票收入, Income, 1, 5, Success, 5) -->
+                  <span class="method-name">foodStampSourceTest</span>
+                  <span class="parameters">(查看粮票收入, Income, 1, 5, Success, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.uxian.foodgroup.V2.IsRepeatUserNameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isRepeatTest(未使用的昵称, notest, Success, false)">
+                  </a> <!-- isRepeatTest(未使用的昵称, notest, Success, false) -->
+                  <span class="method-name">isRepeatTest</span>
+                  <span class="parameters">(未使用的昵称, notest, Success, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isRepeatTest(已使用的昵称, 维尼宝宝, Success, true)">
+                  </a> <!-- isRepeatTest(已使用的昵称, 维尼宝宝, Success, true) -->
+                  <span class="method-name">isRepeatTest</span>
+                  <span class="parameters">(已使用的昵称, 维尼宝宝, Success, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noRequired(昵称为空, , 出现错误。)">
+                  </a> <!-- noRequired(昵称为空, , 出现错误。) -->
+                  <span class="method-name">noRequired</span>
+                  <span class="parameters">(昵称为空, , 出现错误。)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.uxian.foodgroup.V2.ActivateCommentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="activateCommentTest(输入错误的激活码, wrong, Failed)">
+                  </a> <!-- activateCommentTest(输入错误的激活码, wrong, Failed) -->
+                  <span class="method-name">activateCommentTest</span>
+                  <span class="parameters">(输入错误的激活码, wrong, Failed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="activateCommentTest(输入正确的激活码, 菠萝菠萝蜜, Success)">
+                  </a> <!-- activateCommentTest(输入正确的激活码, 菠萝菠萝蜜, Success) -->
+                  <span class="method-name">activateCommentTest</span>
+                  <span class="parameters">(输入正确的激活码, 菠萝菠萝蜜, Success)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="activateCommentTest(输入空的激活码, , Failed)">
+                  </a> <!-- activateCommentTest(输入空的激活码, , Failed) -->
+                  <span class="method-name">activateCommentTest</span>
+                  <span class="parameters">(输入空的激活码, , Failed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noRequiredTest(DeviceNumber不输入, , 00267C69-29B6-4786-BCA4-31BE6EB82C03, Iphone, 菠萝菠萝蜜, 出现错误。)">
+                  </a> <!-- noRequiredTest(DeviceNumber不输入, , 00267C69-29B6-4786-BCA4-31BE6EB82C03, Iphone, 菠萝菠萝蜜, 出现错误。) -->
+                  <span class="method-name">noRequiredTest</span>
+                  <span class="parameters">(DeviceNumber不输入, , 00267C69-29B6-4786-BCA4-31BE6EB82C03, Iphone, 菠萝菠萝蜜, 出现错误。)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noRequiredTest(FoodUserId不输入, 00add033-8a29-416e-8d4f-17fa9a088fa0, , Iphone, 菠萝菠萝蜜, 出现错误。)">
+                  </a> <!-- noRequiredTest(FoodUserId不输入, 00add033-8a29-416e-8d4f-17fa9a088fa0, , Iphone, 菠萝菠萝蜜, 出现错误。) -->
+                  <span class="method-name">noRequiredTest</span>
+                  <span class="parameters">(FoodUserId不输入, 00add033-8a29-416e-8d4f-17fa9a088fa0, , Iphone, 菠萝菠萝蜜, 出现错误。)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noRequiredTest(DeviceType不输入, 00add033-8a29-416e-8d4f-17fa9a088fa0, 00267C69-29B6-4786-BCA4-31BE6EB82C03, , 菠萝菠萝蜜, ...)">
+                  </a> <!-- noRequiredTest(DeviceType不输入, 00add033-8a29-416e-8d4f-17fa9a088fa0, 00267C69-29B6-4786-BCA4-31BE6EB82C03, , 菠萝菠萝蜜, ...) -->
+                  <span class="method-name">noRequiredTest</span>
+                  <span class="parameters">(DeviceType不输入, 00add033-8a29-416e-8d4f-17fa9a088fa0, 00267C69-29B6-4786-BCA4-31BE6EB82C03, , 菠萝菠萝蜜, 出现错误。)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.uxian.foodgroup.V2.HotConstituteItemsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hotConstituteItems(查看存在的帖子的5个热度来源, 1, 5, Success, 5)">
+                  </a> <!-- hotConstituteItems(查看存在的帖子的5个热度来源, 1, 5, Success, 5) -->
+                  <span class="method-name">hotConstituteItems</span>
+                  <span class="parameters">(查看存在的帖子的5个热度来源, 1, 5, Success, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hotConstituteItems(查看存在的帖子的1个热度来源, 1, 1, Success, 1)">
+                  </a> <!-- hotConstituteItems(查看存在的帖子的1个热度来源, 1, 1, Success, 1) -->
+                  <span class="method-name">hotConstituteItems</span>
+                  <span class="parameters">(查看存在的帖子的1个热度来源, 1, 1, Success, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.uxian.foodgroup.V2.FoodpostShareTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="foodpostShareTest(进行帖子分享, Success)">
+                  </a> <!-- foodpostShareTest(进行帖子分享, Success) -->
+                  <span class="method-name">foodpostShareTest</span>
+                  <span class="parameters">(进行帖子分享, Success)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.uxian.foodgroup.V2.InviteFoodUsersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="inviteFoodUsersTest(获取待邀请列表, 2, 10, Success, 10)">
+                  </a> <!-- inviteFoodUsersTest(获取待邀请列表, 2, 10, Success, 10) -->
+                  <span class="method-name">inviteFoodUsersTest</span>
+                  <span class="parameters">(获取待邀请列表, 2, 10, Success, 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inviteFoodUsersTest(获取待邀请列表, 1, 5, Success, 5)">
+                  </a> <!-- inviteFoodUsersTest(获取待邀请列表, 1, 5, Success, 5) -->
+                  <span class="method-name">inviteFoodUsersTest</span>
+                  <span class="parameters">(获取待邀请列表, 1, 5, Success, 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\SVNList\FoodGroupTest\runTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.uxian.foodgroup.V2.ActivateCommentTest&quot;/&gt;
+      &lt;class name=&quot;com.uxian.foodgroup.V2.HotConstituteItemsTest&quot;/&gt;
+      &lt;class name=&quot;com.uxian.foodgroup.V2.InviteFoodUsersTest&quot;/&gt;
+      &lt;class name=&quot;com.uxian.foodgroup.V2.IsRepeatUserNameTest&quot;/&gt;
+      &lt;class name=&quot;com.uxian.foodgroup.V2.PostSearChByTagTest&quot;/&gt;
+      &lt;class name=&quot;com.uxian.foodgroup.V2.SearchTagsTest&quot;/&gt;
+      &lt;class name=&quot;com.uxian.foodgroup.V2.UnAttentionFoodUsersTest&quot;/&gt;
+      &lt;class name=&quot;com.uxian.foodgroup.V2.FoodpostShareTest&quot;/&gt;
+      &lt;class name=&quot;com.uxian.foodgroup.V2.FoodStampSourceTest&quot;/&gt;
+      &lt;class name=&quot;com.uxian.foodgroup.V2.FoodpostRewardTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'activateCommentTest')
+data.setCell(0, 2, 'com.uxian.foodgroup.V2.ActivateCommentTest')
+data.setCell(0, 3, 1679);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'unAttentionFoodUsersTest')
+data.setCell(1, 2, 'com.uxian.foodgroup.V2.UnAttentionFoodUsersTest')
+data.setCell(1, 3, 1313);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'postSearChByTagTest')
+data.setCell(2, 2, 'com.uxian.foodgroup.V2.PostSearChByTagTest')
+data.setCell(2, 3, 522);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'inviteFoodUsersTest')
+data.setCell(3, 2, 'com.uxian.foodgroup.V2.InviteFoodUsersTest')
+data.setCell(3, 3, 469);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'inviteFoodUsersTest')
+data.setCell(4, 2, 'com.uxian.foodgroup.V2.InviteFoodUsersTest')
+data.setCell(4, 3, 406);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'foodpostRewardTest')
+data.setCell(5, 2, 'com.uxian.foodgroup.V2.FoodpostRewardTest')
+data.setCell(5, 3, 348);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'hotConstituteItems')
+data.setCell(6, 2, 'com.uxian.foodgroup.V2.HotConstituteItemsTest')
+data.setCell(6, 3, 339);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchTagsTest')
+data.setCell(7, 2, 'com.uxian.foodgroup.V2.SearchTagsTest')
+data.setCell(7, 3, 294);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'foodStampSourceTest')
+data.setCell(8, 2, 'com.uxian.foodgroup.V2.FoodStampSourceTest')
+data.setCell(8, 3, 222);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'foodStampSourceTest')
+data.setCell(9, 2, 'com.uxian.foodgroup.V2.FoodStampSourceTest')
+data.setCell(9, 3, 218);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'foodpostShareTest')
+data.setCell(10, 2, 'com.uxian.foodgroup.V2.FoodpostShareTest')
+data.setCell(10, 3, 216);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'postSearChByTagTest')
+data.setCell(11, 2, 'com.uxian.foodgroup.V2.PostSearChByTagTest')
+data.setCell(11, 3, 214);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'foodpostRewardTest')
+data.setCell(12, 2, 'com.uxian.foodgroup.V2.FoodpostRewardTest')
+data.setCell(12, 3, 158);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'foodpostRewardTest')
+data.setCell(13, 2, 'com.uxian.foodgroup.V2.FoodpostRewardTest')
+data.setCell(13, 3, 151);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'isRepeatTest')
+data.setCell(14, 2, 'com.uxian.foodgroup.V2.IsRepeatUserNameTest')
+data.setCell(14, 3, 137);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'hotConstituteItems')
+data.setCell(15, 2, 'com.uxian.foodgroup.V2.HotConstituteItemsTest')
+data.setCell(15, 3, 98);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'searchTagsTest')
+data.setCell(16, 2, 'com.uxian.foodgroup.V2.SearchTagsTest')
+data.setCell(16, 3, 94);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'noPayModeTest')
+data.setCell(17, 2, 'com.uxian.foodgroup.V2.FoodpostRewardTest')
+data.setCell(17, 3, 93);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'isRepeatTest')
+data.setCell(18, 2, 'com.uxian.foodgroup.V2.IsRepeatUserNameTest')
+data.setCell(18, 3, 83);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'noRequiredTest')
+data.setCell(19, 2, 'com.uxian.foodgroup.V2.ActivateCommentTest')
+data.setCell(19, 3, 80);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'postSearChByTagTest')
+data.setCell(20, 2, 'com.uxian.foodgroup.V2.PostSearChByTagTest')
+data.setCell(20, 3, 70);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'searchTagsTest')
+data.setCell(21, 2, 'com.uxian.foodgroup.V2.SearchTagsTest')
+data.setCell(21, 3, 68);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'activateCommentTest')
+data.setCell(22, 2, 'com.uxian.foodgroup.V2.ActivateCommentTest')
+data.setCell(22, 3, 59);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'activateCommentTest')
+data.setCell(23, 2, 'com.uxian.foodgroup.V2.ActivateCommentTest')
+data.setCell(23, 3, 47);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'searchTagsnoFinerTest')
+data.setCell(24, 2, 'com.uxian.foodgroup.V2.SearchTagsTest')
+data.setCell(24, 3, 47);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'postSearChByTagTest')
+data.setCell(25, 2, 'com.uxian.foodgroup.V2.PostSearChByTagTest')
+data.setCell(25, 3, 45);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'getData_unnormalTest')
+data.setCell(26, 2, 'com.uxian.foodgroup.V2.FoodpostRewardTest')
+data.setCell(26, 3, 44);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'noRequired')
+data.setCell(27, 2, 'com.uxian.foodgroup.V2.IsRepeatUserNameTest')
+data.setCell(27, 3, 34);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'noRequiredTest')
+data.setCell(28, 2, 'com.uxian.foodgroup.V2.ActivateCommentTest')
+data.setCell(28, 3, 32);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'noRequiredTest')
+data.setCell(29, 2, 'com.uxian.foodgroup.V2.ActivateCommentTest')
+data.setCell(29, 3, 30);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'getData_unnormalTest')
+data.setCell(30, 2, 'com.uxian.foodgroup.V2.FoodpostRewardTest')
+data.setCell(30, 3, 24);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'getData_unnormalTest')
+data.setCell(31, 2, 'com.uxian.foodgroup.V2.FoodpostRewardTest')
+data.setCell(31, 3, 16);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uxian.foodgroup.V2.ActivateCommentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">activateCommentTest(输入正确的激活码, 菠萝菠萝蜜, Success)</span>
+                <span class="method-start">101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">activateCommentTest(输入错误的激活码, wrong, Failed)</span>
+                <span class="method-start">1781 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">activateCommentTest(输入空的激活码, , Failed)</span>
+                <span class="method-start">1840 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">noRequiredTest(DeviceNumber不输入, , 00267C69-29B6-4786-BCA4-31BE6EB82C03, Iphone, 菠萝菠萝蜜, 出现错误。)</span>
+                <span class="method-start">1889 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">noRequiredTest(FoodUserId不输入, 00add033-8a29-416e-8d4f-17fa9a088fa0, , Iphone, 菠萝菠萝蜜, 出现错误。)</span>
+                <span class="method-start">1921 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">noRequiredTest(DeviceType不输入, 00add033-8a29-416e-8d4f-17fa9a088fa0, 00267C69-29B6-4786-BCA4-31BE6EB82C03, , 菠萝菠萝蜜, ...)</span>
+                <span class="method-start">2001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2031 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uxian.foodgroup.V2.HotConstituteItemsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2033 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">hotConstituteItems(查看存在的帖子的1个热度来源, 1, 1, Success, 1)</span>
+                <span class="method-start">2034 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hotConstituteItems(查看存在的帖子的5个热度来源, 1, 5, Success, 5)</span>
+                <span class="method-start">2374 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2472 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uxian.foodgroup.V2.InviteFoodUsersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2473 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">inviteFoodUsersTest(获取待邀请列表, 1, 5, Success, 5)</span>
+                <span class="method-start">2477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">inviteFoodUsersTest(获取待邀请列表, 2, 10, Success, 10)</span>
+                <span class="method-start">2946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3352 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uxian.foodgroup.V2.IsRepeatUserNameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3353 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">isRepeatTest(未使用的昵称, notest, Success, false)</span>
+                <span class="method-start">3357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isRepeatTest(已使用的昵称, 维尼宝宝, Success, true)</span>
+                <span class="method-start">3494 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">noRequired(昵称为空, , 出现错误。)</span>
+                <span class="method-start">3580 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3614 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uxian.foodgroup.V2.PostSearChByTagTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3615 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">postSearChByTagTest(通过店铺tag进行搜索, 外婆家, 1, 5, Success, 5)</span>
+                <span class="method-start">3617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postSearChByTagTest(通过菜名tag进行搜索, 茶香鸡, 1, 5, Success, 5)</span>
+                <span class="method-start">4139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postSearChByTagTest(输入不存在的店铺或者菜名, 不存在, 1, 5, Success, 0)</span>
+                <span class="method-start">4353 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postSearChByTagTest(tag为空, , 1, 5, Success, 0)</span>
+                <span class="method-start">4423 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4468 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uxian.foodgroup.V2.SearchTagsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4469 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchTagsTest(查询存在的开放性tag, 酱牛肉, 4, Other, Success, 1)</span>
+                <span class="method-start">4471 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTagsTest(查询不存在的开放性tag, ff, 1, Other, Success, 0)</span>
+                <span class="method-start">4766 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTagsTest(Finder为空, , 1, Other, Success, 1)</span>
+                <span class="method-start">4834 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTagsnoFinerTest(SignType为空, 酱牛肉, 5, , 出现错误。)</span>
+                <span class="method-start">4930 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4977 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uxian.foodgroup.V2.UnAttentionFoodUsersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4978 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">unAttentionFoodUsersTest(获取未关注好友列表, 1, 5, Success, 2)</span>
+                <span class="method-start">4980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6333 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uxian.foodgroup.V2.FoodpostShareTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">6334 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">foodpostShareTest(进行帖子分享, Success)</span>
+                <span class="method-start">6339 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6555 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uxian.foodgroup.V2.FoodStampSourceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">6556 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">foodStampSourceTest(查看粮票收入, Income, 1, 5, Success, 5)</span>
+                <span class="method-start">6558 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">foodStampSourceTest(查看粮票支出, Pay, 1, 3, Success, 3)</span>
+                <span class="method-start">6781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6999 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.uxian.foodgroup.V2.FoodpostRewardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7001 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">foodpostRewardTest(打赏金额小于粮票金额, 0.01, 1, Success, 0)</span>
+                <span class="method-start">7006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">foodpostRewardTest(打赏金额大于粮票金额，且支付方式为支付宝, 9.9, 1, Failed, WaitThirdPay)</span>
+                <span class="method-start">7354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">foodpostRewardTest(打赏金额大于粮票金额，且支付方式为微信支付, 9.9, 4, Failed, WaitThirdPay)</span>
+                <span class="method-start">7512 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getData_unnormalTest(打赏金额为0, 0, 1, 出现错误。)</span>
+                <span class="method-start">7666 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getData_unnormalTest(打赏金额为0.009, 0.009, 1, 出现错误。)</span>
+                <span class="method-start">7711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getData_unnormalTest(打赏金额为9.9901, 9.9901, 1, 出现错误。)</span>
+                <span class="method-start">7736 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">noPayModeTest(打赏金额大于粮票金额，且没有选择第三方支付方式, 9.9, Failed, NoPayMode)</span>
+                <span class="method-start">7753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7847 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

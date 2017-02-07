@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="32" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7856" started-at="2015-11-11T03:07:30Z" finished-at="2015-11-11T03:07:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7856" started-at="2015-11-11T03:07:30Z" finished-at="2015-11-11T03:07:38Z">
+      <class name="com.uxian.foodgroup.V2.UnAttentionFoodUsersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uxian.foodgroup.V2.UnAttentionFoodUsersTest@6ec742a8]" name="setUp" is-config="true" duration-ms="1" started-at="2015-11-11T11:07:35Z" finished-at="2015-11-11T11:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="unAttentionFoodUsersTest(java.lang.String, int, int, java.lang.String, int)[pri:0, instance:com.uxian.foodgroup.V2.UnAttentionFoodUsersTest@6ec742a8]" name="unAttentionFoodUsersTest" duration-ms="1313" started-at="2015-11-11T11:07:35Z" data-provider="getData" finished-at="2015-11-11T11:07:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[获取未关注好友列表]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [5]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [5]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:372)
+	at org.testng.Assert.assertEquals(Assert.java:382)
+	at com.uxian.foodgroup.V2.UnAttentionFoodUsersTest.unAttentionFoodUsersTest(UnAttentionFoodUsersTest.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unAttentionFoodUsersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uxian.foodgroup.V2.UnAttentionFoodUsersTest@6ec742a8]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-11-11T11:07:37Z" finished-at="2015-11-11T11:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uxian.foodgroup.V2.UnAttentionFoodUsersTest -->
+      <class name="com.uxian.foodgroup.V2.ActivateCommentTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uxian.foodgroup.V2.ActivateCommentTest@6767ca0f]" name="setUp" is-config="true" duration-ms="96" started-at="2015-11-11T11:07:30Z" finished-at="2015-11-11T11:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="activateCommentTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.uxian.foodgroup.V2.ActivateCommentTest@6767ca0f]" name="activateCommentTest" duration-ms="1679" started-at="2015-11-11T11:07:30Z" data-provider="getData" finished-at="2015-11-11T11:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[输入正确的激活码]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[菠萝菠萝蜜]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activateCommentTest -->
+        <test-method status="PASS" signature="activateCommentTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.uxian.foodgroup.V2.ActivateCommentTest@6767ca0f]" name="activateCommentTest" duration-ms="59" started-at="2015-11-11T11:07:32Z" data-provider="getData" finished-at="2015-11-11T11:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[输入错误的激活码]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activateCommentTest -->
+        <test-method status="PASS" signature="activateCommentTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.uxian.foodgroup.V2.ActivateCommentTest@6767ca0f]" name="activateCommentTest" duration-ms="47" started-at="2015-11-11T11:07:32Z" data-provider="getData" finished-at="2015-11-11T11:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[输入空的激活码]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activateCommentTest -->
+        <test-method status="PASS" signature="noRequiredTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.uxian.foodgroup.V2.ActivateCommentTest@6767ca0f]" name="noRequiredTest" duration-ms="32" started-at="2015-11-11T11:07:32Z" data-provider="getData_noRequired" finished-at="2015-11-11T11:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DeviceNumber不输入]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[00267C69-29B6-4786-BCA4-31BE6EB82C03]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Iphone]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[菠萝菠萝蜜]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[出现错误。]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noRequiredTest -->
+        <test-method status="PASS" signature="noRequiredTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.uxian.foodgroup.V2.ActivateCommentTest@6767ca0f]" name="noRequiredTest" duration-ms="80" started-at="2015-11-11T11:07:32Z" data-provider="getData_noRequired" finished-at="2015-11-11T11:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FoodUserId不输入]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[00add033-8a29-416e-8d4f-17fa9a088fa0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Iphone]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[菠萝菠萝蜜]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[出现错误。]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noRequiredTest -->
+        <test-method status="PASS" signature="noRequiredTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.uxian.foodgroup.V2.ActivateCommentTest@6767ca0f]" name="noRequiredTest" duration-ms="30" started-at="2015-11-11T11:07:32Z" data-provider="getData_noRequired" finished-at="2015-11-11T11:07:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DeviceType不输入]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[00add033-8a29-416e-8d4f-17fa9a088fa0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[00267C69-29B6-4786-BCA4-31BE6EB82C03]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[菠萝菠萝蜜]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[出现错误。]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noRequiredTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uxian.foodgroup.V2.ActivateCommentTest@6767ca0f]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-11-11T11:07:32Z" finished-at="2015-11-11T11:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uxian.foodgroup.V2.ActivateCommentTest -->
+      <class name="com.uxian.foodgroup.V2.InviteFoodUsersTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uxian.foodgroup.V2.InviteFoodUsersTest@642bd560]" name="setUp" is-config="true" duration-ms="3" started-at="2015-11-11T11:07:33Z" finished-at="2015-11-11T11:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inviteFoodUsersTest(java.lang.String, int, int, java.lang.String, int)[pri:0, instance:com.uxian.foodgroup.V2.InviteFoodUsersTest@642bd560]" name="inviteFoodUsersTest" duration-ms="469" started-at="2015-11-11T11:07:33Z" data-provider="getData" finished-at="2015-11-11T11:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[获取待邀请列表]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inviteFoodUsersTest -->
+        <test-method status="PASS" signature="inviteFoodUsersTest(java.lang.String, int, int, java.lang.String, int)[pri:0, instance:com.uxian.foodgroup.V2.InviteFoodUsersTest@642bd560]" name="inviteFoodUsersTest" duration-ms="406" started-at="2015-11-11T11:07:33Z" data-provider="getData" finished-at="2015-11-11T11:07:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[获取待邀请列表]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inviteFoodUsersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uxian.foodgroup.V2.InviteFoodUsersTest@642bd560]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-11-11T11:07:34Z" finished-at="2015-11-11T11:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uxian.foodgroup.V2.InviteFoodUsersTest -->
+      <class name="com.uxian.foodgroup.V2.FoodpostRewardTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54]" name="setUp" is-config="true" duration-ms="3" started-at="2015-11-11T11:07:37Z" finished-at="2015-11-11T11:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="foodpostRewardTest(java.lang.String, double, int, java.lang.String, java.lang.Object)[pri:0, instance:com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54]" name="foodpostRewardTest" duration-ms="348" started-at="2015-11-11T11:07:37Z" data-provider="getData_normal" finished-at="2015-11-11T11:07:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[打赏金额小于粮票金额]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foodpostRewardTest -->
+        <test-method status="FAIL" signature="foodpostRewardTest(java.lang.String, double, int, java.lang.String, java.lang.Object)[pri:0, instance:com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54]" name="foodpostRewardTest" duration-ms="158" started-at="2015-11-11T11:07:38Z" data-provider="getData_normal" finished-at="2015-11-11T11:07:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[打赏金额大于粮票金额，且支付方式为支付宝]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Failed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[WaitThirdPay]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Failed] but found [Success]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Failed] but found [Success]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest(FoodpostRewardTest.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foodpostRewardTest -->
+        <test-method status="FAIL" signature="foodpostRewardTest(java.lang.String, double, int, java.lang.String, java.lang.Object)[pri:0, instance:com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54]" name="foodpostRewardTest" duration-ms="151" started-at="2015-11-11T11:07:38Z" data-provider="getData_normal" finished-at="2015-11-11T11:07:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[打赏金额大于粮票金额，且支付方式为微信支付]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Failed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[WaitThirdPay]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Failed] but found [Success]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Failed] but found [Success]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at com.uxian.foodgroup.V2.FoodpostRewardTest.foodpostRewardTest(FoodpostRewardTest.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foodpostRewardTest -->
+        <test-method status="PASS" signature="getData_unnormalTest(java.lang.String, double, int, java.lang.String)[pri:0, instance:com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54]" name="getData_unnormalTest" duration-ms="44" started-at="2015-11-11T11:07:38Z" data-provider="getData_unnormal" finished-at="2015-11-11T11:07:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[打赏金额为0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[出现错误。]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData_unnormalTest -->
+        <test-method status="PASS" signature="getData_unnormalTest(java.lang.String, double, int, java.lang.String)[pri:0, instance:com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54]" name="getData_unnormalTest" duration-ms="24" started-at="2015-11-11T11:07:38Z" data-provider="getData_unnormal" finished-at="2015-11-11T11:07:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[打赏金额为0.009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.009]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[出现错误。]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData_unnormalTest -->
+        <test-method status="PASS" signature="getData_unnormalTest(java.lang.String, double, int, java.lang.String)[pri:0, instance:com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54]" name="getData_unnormalTest" duration-ms="16" started-at="2015-11-11T11:07:38Z" data-provider="getData_unnormal" finished-at="2015-11-11T11:07:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[打赏金额为9.9901]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.9901]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[出现错误。]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData_unnormalTest -->
+        <test-method status="PASS" signature="noPayModeTest(java.lang.String, double, java.lang.String, java.lang.Object)[pri:0, instance:com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54]" name="noPayModeTest" duration-ms="93" started-at="2015-11-11T11:07:38Z" data-provider="getData_noPayMode" finished-at="2015-11-11T11:07:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[打赏金额大于粮票金额，且没有选择第三方支付方式]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9.9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NoPayMode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noPayModeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uxian.foodgroup.V2.FoodpostRewardTest@424eeb54]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-11-11T11:07:38Z" finished-at="2015-11-11T11:07:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uxian.foodgroup.V2.FoodpostRewardTest -->
+      <class name="com.uxian.foodgroup.V2.IsRepeatUserNameTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uxian.foodgroup.V2.IsRepeatUserNameTest@417cc8df]" name="setUp" is-config="true" duration-ms="3" started-at="2015-11-11T11:07:34Z" finished-at="2015-11-11T11:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="isRepeatTest(java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.uxian.foodgroup.V2.IsRepeatUserNameTest@417cc8df]" name="isRepeatTest" duration-ms="137" started-at="2015-11-11T11:07:34Z" data-provider="getData" finished-at="2015-11-11T11:07:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[未使用的昵称]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[notest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isRepeatTest -->
+        <test-method status="PASS" signature="isRepeatTest(java.lang.String, java.lang.String, java.lang.String, boolean)[pri:0, instance:com.uxian.foodgroup.V2.IsRepeatUserNameTest@417cc8df]" name="isRepeatTest" duration-ms="83" started-at="2015-11-11T11:07:34Z" data-provider="getData" finished-at="2015-11-11T11:07:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[已使用的昵称]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[维尼宝宝]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isRepeatTest -->
+        <test-method status="PASS" signature="noRequired(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.uxian.foodgroup.V2.IsRepeatUserNameTest@417cc8df]" name="noRequired" duration-ms="34" started-at="2015-11-11T11:07:34Z" data-provider="getData_noRequired" finished-at="2015-11-11T11:07:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[昵称为空]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[出现错误。]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noRequired -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uxian.foodgroup.V2.IsRepeatUserNameTest@417cc8df]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-11-11T11:07:34Z" finished-at="2015-11-11T11:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uxian.foodgroup.V2.IsRepeatUserNameTest -->
+      <class name="com.uxian.foodgroup.V2.FoodpostShareTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uxian.foodgroup.V2.FoodpostShareTest@66715d44]" name="setUp" is-config="true" duration-ms="2" started-at="2015-11-11T11:07:37Z" finished-at="2015-11-11T11:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="foodpostShareTest(java.lang.String, java.lang.String)[pri:0, instance:com.uxian.foodgroup.V2.FoodpostShareTest@66715d44]" name="foodpostShareTest" duration-ms="216" started-at="2015-11-11T11:07:37Z" data-provider="getData" finished-at="2015-11-11T11:07:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[进行帖子分享]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foodpostShareTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uxian.foodgroup.V2.FoodpostShareTest@66715d44]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-11-11T11:07:37Z" finished-at="2015-11-11T11:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uxian.foodgroup.V2.FoodpostShareTest -->
+      <class name="com.uxian.foodgroup.V2.FoodStampSourceTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uxian.foodgroup.V2.FoodStampSourceTest@35b220a3]" name="setUp" is-config="true" duration-ms="1" started-at="2015-11-11T11:07:37Z" finished-at="2015-11-11T11:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="foodStampSourceTest(java.lang.String, java.lang.String, int, int, java.lang.String, int)[pri:0, instance:com.uxian.foodgroup.V2.FoodStampSourceTest@35b220a3]" name="foodStampSourceTest" duration-ms="222" started-at="2015-11-11T11:07:37Z" data-provider="getData" finished-at="2015-11-11T11:07:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[查看粮票收入]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Income]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foodStampSourceTest -->
+        <test-method status="PASS" signature="foodStampSourceTest(java.lang.String, java.lang.String, int, int, java.lang.String, int)[pri:0, instance:com.uxian.foodgroup.V2.FoodStampSourceTest@35b220a3]" name="foodStampSourceTest" duration-ms="218" started-at="2015-11-11T11:07:37Z" data-provider="getData" finished-at="2015-11-11T11:07:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[查看粮票支出]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- foodStampSourceTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uxian.foodgroup.V2.FoodStampSourceTest@35b220a3]" name="tearDown" is-config="true" duration-ms="2" started-at="2015-11-11T11:07:37Z" finished-at="2015-11-11T11:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uxian.foodgroup.V2.FoodStampSourceTest -->
+      <class name="com.uxian.foodgroup.V2.HotConstituteItemsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uxian.foodgroup.V2.HotConstituteItemsTest@42ed41a7]" name="setUp" is-config="true" duration-ms="1" started-at="2015-11-11T11:07:32Z" finished-at="2015-11-11T11:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="hotConstituteItems(java.lang.String, int, int, java.lang.String, int)[pri:0, instance:com.uxian.foodgroup.V2.HotConstituteItemsTest@42ed41a7]" name="hotConstituteItems" duration-ms="339" started-at="2015-11-11T11:07:32Z" data-provider="getData" finished-at="2015-11-11T11:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[查看存在的帖子的1个热度来源]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotConstituteItems -->
+        <test-method status="PASS" signature="hotConstituteItems(java.lang.String, int, int, java.lang.String, int)[pri:0, instance:com.uxian.foodgroup.V2.HotConstituteItemsTest@42ed41a7]" name="hotConstituteItems" duration-ms="98" started-at="2015-11-11T11:07:33Z" data-provider="getData" finished-at="2015-11-11T11:07:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[查看存在的帖子的5个热度来源]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotConstituteItems -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uxian.foodgroup.V2.HotConstituteItemsTest@42ed41a7]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-11-11T11:07:33Z" finished-at="2015-11-11T11:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uxian.foodgroup.V2.HotConstituteItemsTest -->
+      <class name="com.uxian.foodgroup.V2.PostSearChByTagTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uxian.foodgroup.V2.PostSearChByTagTest@5be95c69]" name="setUp" is-config="true" duration-ms="1" started-at="2015-11-11T11:07:34Z" finished-at="2015-11-11T11:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postSearChByTagTest(java.lang.String, java.lang.String, int, int, java.lang.String, int)[pri:0, instance:com.uxian.foodgroup.V2.PostSearChByTagTest@5be95c69]" name="postSearChByTagTest" duration-ms="522" started-at="2015-11-11T11:07:34Z" data-provider="getData" finished-at="2015-11-11T11:07:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[通过店铺tag进行搜索]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[外婆家]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSearChByTagTest -->
+        <test-method status="PASS" signature="postSearChByTagTest(java.lang.String, java.lang.String, int, int, java.lang.String, int)[pri:0, instance:com.uxian.foodgroup.V2.PostSearChByTagTest@5be95c69]" name="postSearChByTagTest" duration-ms="214" started-at="2015-11-11T11:07:34Z" data-provider="getData" finished-at="2015-11-11T11:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[通过菜名tag进行搜索]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[茶香鸡]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSearChByTagTest -->
+        <test-method status="PASS" signature="postSearChByTagTest(java.lang.String, java.lang.String, int, int, java.lang.String, int)[pri:0, instance:com.uxian.foodgroup.V2.PostSearChByTagTest@5be95c69]" name="postSearChByTagTest" duration-ms="70" started-at="2015-11-11T11:07:35Z" data-provider="getData" finished-at="2015-11-11T11:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[输入不存在的店铺或者菜名]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[不存在]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSearChByTagTest -->
+        <test-method status="PASS" signature="postSearChByTagTest(java.lang.String, java.lang.String, int, int, java.lang.String, int)[pri:0, instance:com.uxian.foodgroup.V2.PostSearChByTagTest@5be95c69]" name="postSearChByTagTest" duration-ms="45" started-at="2015-11-11T11:07:35Z" data-provider="getData" finished-at="2015-11-11T11:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tag为空]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSearChByTagTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uxian.foodgroup.V2.PostSearChByTagTest@5be95c69]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-11-11T11:07:35Z" finished-at="2015-11-11T11:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uxian.foodgroup.V2.PostSearChByTagTest -->
+      <class name="com.uxian.foodgroup.V2.SearchTagsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uxian.foodgroup.V2.SearchTagsTest@49ef12fb]" name="setUp" is-config="true" duration-ms="2" started-at="2015-11-11T11:07:35Z" finished-at="2015-11-11T11:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchTagsTest(java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.String, int)[pri:0, instance:com.uxian.foodgroup.V2.SearchTagsTest@49ef12fb]" name="searchTagsTest" duration-ms="294" started-at="2015-11-11T11:07:35Z" data-provider="getData" finished-at="2015-11-11T11:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[查询存在的开放性tag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[酱牛肉]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTagsTest -->
+        <test-method status="PASS" signature="searchTagsTest(java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.String, int)[pri:0, instance:com.uxian.foodgroup.V2.SearchTagsTest@49ef12fb]" name="searchTagsTest" duration-ms="68" started-at="2015-11-11T11:07:35Z" data-provider="getData" finished-at="2015-11-11T11:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[查询不存在的开放性tag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ff]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTagsTest -->
+        <test-method status="PASS" signature="searchTagsTest(java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.String, int)[pri:0, instance:com.uxian.foodgroup.V2.SearchTagsTest@49ef12fb]" name="searchTagsTest" duration-ms="94" started-at="2015-11-11T11:07:35Z" data-provider="getData" finished-at="2015-11-11T11:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Finder为空]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Other]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTagsTest -->
+        <test-method status="PASS" signature="searchTagsnoFinerTest(java.lang.String, java.lang.String, java.lang.Integer, java.lang.String, java.lang.String)[pri:0, instance:com.uxian.foodgroup.V2.SearchTagsTest@49ef12fb]" name="searchTagsnoFinerTest" duration-ms="47" started-at="2015-11-11T11:07:35Z" data-provider="getData_noRequired" finished-at="2015-11-11T11:07:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SignType为空]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[酱牛肉]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[出现错误。]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTagsnoFinerTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.uxian.foodgroup.V2.SearchTagsTest@49ef12fb]" name="tearDown" is-config="true" duration-ms="1" started-at="2015-11-11T11:07:35Z" finished-at="2015-11-11T11:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.uxian.foodgroup.V2.SearchTagsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.uxian.foodgroup.MyBatisMapper.CollectionIDMapper">
+	<select id="selectIDByContent" resultType="String">
+		SELECT ID FROM [dbo].[Collection] where Content='接口测试专用帖子1，不要删除';
+	</select>
+	<select id="selectPostIDByContent" resultType="String">
+		SELECT FoodPostID FROM [dbo].[Collection] where Content='接口测试专用帖子1，不要删除';
+	</select>
+	
+
+</mapper>

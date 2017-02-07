@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<test name="Test" preserve-order="true">
+		<classes>
+		    <!-- FoodPostOperator-->    
+			<class name="com.uxian.foodgroup.FoodPostOperator.ActivateCommentTest" />			
+			<class name="com.uxian.foodgroup.FoodPostOperator.SearchTagsTest" />
+			<class name="com.uxian.foodgroup.FoodPostOperator.FoodpostShareTest" />
+			<class name="com.uxian.foodgroup.FoodPostOperator.FoodStampSourceTest" />
+			<class name="com.uxian.foodgroup.FoodPostOperator.FoodpostRewardTest" />
+			<class name="com.uxian.foodgroup.FoodPostOperator.FoodPostAddTest" />			
+			<class name="com.uxian.foodgroup.FoodPostOperator.FoodPostCommentTest" />
+			<class name="com.uxian.foodgroup.FoodPostOperator.FoodPostDelCommentTest" />
+			<class name="com.uxian.foodgroup.FoodPostOperator.FoodPostDelTest" />
+			<class name="com.uxian.foodgroup.FoodPostOperator.FoodPostPraiseTest" />
+			<class name="com.uxian.foodgroup.FoodPostOperator.FoodPostPraiseCancelTest" />
+			<class name="com.uxian.foodgroup.FoodPostOperator.FoodPraiseUsersTest" />
+			<class name="com.uxian.foodgroup.FoodPostOperator.FoodPostCollectionTest" />
+			<class name="com.uxian.foodgroup.FoodPostOperator.FoodPostCommentListTest" />
+			<class name="com.uxian.foodgroup.FoodPostOperator.FoodPostDetailsTest" />
+			<class name="com.uxian.foodgroup.FoodPostOperator.FoodPostAccusationTest" />
+			
+			<!-- FoodPostUserInfo -->
+			<class name="com.uxian.foodgroup.FoodPostUserInfo.AddAttentionTest" />
+			<class name="com.uxian.foodgroup.FoodPostUserInfo.AttentionUsersTest" />
+			<class name="com.uxian.foodgroup.FoodPostUserInfo.CancelAttentionTest" />
+			<class name="com.uxian.foodgroup.FoodPostUserInfo.EditUserInfoTest" />
+			<class name="com.uxian.foodgroup.FoodPostUserInfo.FoodPostUserInfoTest" />
+			<!--<class name="com.uxian.foodgroup.FoodPostUserInfo.FoodUserVsTest" />-->
+			<!--<class name="com.uxian.foodgroup.FoodPostUserInfo.RecommendUserTest" />-->
+			<class name="com.uxian.foodgroup.FoodPostUserInfo.InviteFoodUsersTest" />
+			<class name="com.uxian.foodgroup.FoodPostUserInfo.IsRepeatUserNameTest" />
+			<class name="com.uxian.foodgroup.FoodPostUserInfo.SendInvitionTest" />
+			<class name="com.uxian.foodgroup.FoodPostUserInfo.UnAttentionFoodUsersTest" />
+			<class name="com.uxian.foodgroup.FoodPostUserInfo.TaskFinishStatusTest" />
+				
+			<!-- FoodPost -->
+			<class name="com.uxian.foodgroup.FoodPost.AttentionFoodPostsTest" />
+			<class name="com.uxian.foodgroup.FoodPost.CollectionDelTest" />
+			<class name="com.uxian.foodgroup.FoodPost.CollectionFoodPostsTest" />
+			<class name="com.uxian.foodgroup.FoodPost.CollectionPostsTest" />
+			<class name="com.uxian.foodgroup.FoodPost.FindFoodPostsTest" />		
+			<class name="com.uxian.foodgroup.FoodPost.HotConstituteItemsTest" />
+			<class name="com.uxian.foodgroup.FoodPost.OthersFoodPostsTest" />
+			<class name="com.uxian.foodgroup.FoodPost.PostSearChByTagTest" />
+			<class name="com.uxian.foodgroup.FoodPost.SignFoodPostsTest" />
+			
+			<!-- DataCount -->
+			<class name="com.uxian.foodgroup.DataCount.CollectionCountTest" />
+			<class name="com.uxian.foodgroup.DataCount.CommentCountTest" />
+			<class name="com.uxian.foodgroup.DataCount.PraisCountTest" />
+			<!--  <class name="com.uxian.foodgroup.DataCount.InteractionCount" />-->
+			
+			<!-- FoodMessage -->
+			<class name="com.uxian.foodgroup.FoodMessage.PostMessagesDelTest" />
+			<class name="com.uxian.foodgroup.FoodMessage.MessagesUpdateTest" />
+			<class name="com.uxian.foodgroup.FoodMessage.FoodPostMessagesTest" />	
+				
+			<!-- City -->
+			<class name="com.uxian.foodgroup.City.CityListTest" />		
+			
+		</classes>		
+	</test>
+</suite>

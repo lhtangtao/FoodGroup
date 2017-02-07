@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration     
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"     
+    "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+
+	<environments default="development">
+		<environment id="VAGourmet0">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+				<property name="url"
+					value="jdbc:sqlserver://120.26.76.220:1833; DatabaseName=VAGourmet0" />
+				<property name="username" value="sa" />
+				<property name="password" value="viewalloc" />
+			</dataSource>
+		</environment>
+		<environment id="VAGourmet">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+				<property name="url"
+					value="jdbc:sqlserver://120.26.76.220:1833; DatabaseName=VAGourmet" />
+				<property name="username" value="sa" />
+				<property name="password" value="viewalloc" />
+			</dataSource>
+		</environment>
+			<environment id="VAGastronomistMobileApp">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+				<property name="url"
+					value="jdbc:sqlserver://120.26.76.220:1833; DatabaseName=VAGastronomistMobileApp" />
+				<property name="username" value="sa" />
+				<property name="password" value="viewalloc" />
+			</dataSource>
+		</environment>
+	</environments>
+	
+	<mappers>
+		<mapper resource="Mapper/FoodPostID.xml" />
+		<mapper resource="Mapper/CommentID.xml" />
+		<mapper resource="Mapper/CollectionID.xml" />
+		<mapper resource="Mapper/MessageID.xml" />
+	</mappers>
+</configuration>
